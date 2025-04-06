@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  prova-crm-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: prova-crm-joao-santos:latest
+    container_name: prova-crm-api
+    ports:
+      - "5025:5025"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    restart: unless-stopped
+

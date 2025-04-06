@@ -1,0 +1,345 @@
+[
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.CandidatoController",
+    "Method": "Add",
+    "RelativePath": "api/Candidato/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidato",
+        "Type": "Prova_CRM_Joao_Santos.Application.ViewModels.CandidatoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.CandidatoController",
+    "Method": "Delete",
+    "RelativePath": "api/Candidato/deletebyid/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.CandidatoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Candidato/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.CandidatoController",
+    "Method": "GetById",
+    "RelativePath": "api/Candidato/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.CandidatoController",
+    "Method": "Update",
+    "RelativePath": "api/Candidato/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidato",
+        "Type": "Prova_CRM_Joao_Santos.Domain.Entities.Candidato",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.InscricaoController",
+    "Method": "Add",
+    "RelativePath": "api/Inscricao/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inscricaovm",
+        "Type": "Prova_CRM_Joao_Santos.Application.ViewModels.InscricaoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.InscricaoController",
+    "Method": "Delete",
+    "RelativePath": "api/Inscricao/deletebyid/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.InscricaoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Inscricao/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.InscricaoController",
+    "Method": "GetAllComplete",
+    "RelativePath": "api/Inscricao/getallcomplete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.InscricaoController",
+    "Method": "GetByCpf",
+    "RelativePath": "api/Inscricao/getbycpf/{cpf}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cpf",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.InscricaoController",
+    "Method": "GetById",
+    "RelativePath": "api/Inscricao/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.InscricaoController",
+    "Method": "GetByOferta",
+    "RelativePath": "api/Inscricao/getbyoferta/{oferta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oferta",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.InscricaoController",
+    "Method": "Update",
+    "RelativePath": "api/Inscricao/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inscricao",
+        "Type": "Prova_CRM_Joao_Santos.Domain.Entities.Inscricao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.OfertaController",
+    "Method": "Add",
+    "RelativePath": "api/Oferta/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oferta",
+        "Type": "Prova_CRM_Joao_Santos.Application.ViewModels.OfertaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.OfertaController",
+    "Method": "Delete",
+    "RelativePath": "api/Oferta/deletebyid/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.OfertaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Oferta/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.OfertaController",
+    "Method": "GetById",
+    "RelativePath": "api/Oferta/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.OfertaController",
+    "Method": "Update",
+    "RelativePath": "api/Oferta/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oferta",
+        "Type": "Prova_CRM_Joao_Santos.Domain.Entities.Oferta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.ProcessoSeletivoController",
+    "Method": "Add",
+    "RelativePath": "api/ProcessoSeletivo/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processo",
+        "Type": "Prova_CRM_Joao_Santos.Application.ViewModels.ProcessoSeletivoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.ProcessoSeletivoController",
+    "Method": "Delete",
+    "RelativePath": "api/ProcessoSeletivo/deletebyid/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.ProcessoSeletivoController",
+    "Method": "GetAll",
+    "RelativePath": "api/ProcessoSeletivo/getall",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.ProcessoSeletivoController",
+    "Method": "GetById",
+    "RelativePath": "api/ProcessoSeletivo/getbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Prova_CRM_Joao_Santos.API.Controllers.ProcessoSeletivoController",
+    "Method": "Update",
+    "RelativePath": "api/ProcessoSeletivo/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "processo",
+        "Type": "Prova_CRM_Joao_Santos.Domain.Entities.ProcessoSeletivo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
